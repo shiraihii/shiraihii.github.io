@@ -270,7 +270,5 @@ function FindProxyForURL(url, host) {
 		return "PROXY 124.200.100.50:8080"
 	} else if (shExpMatch(host, "*.yinyuetai.com")) {
 		return "PROXY 124.200.100.50:8080"
-	} else if (shExpMatch(url, "3g.163.com/touch/sports/*")) {
-		return "PROXY 124.200.100.50:8080"
 	} else return "DIRECT"
 }
