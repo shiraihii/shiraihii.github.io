@@ -88,6 +88,8 @@ function FindProxyForURL(url, host) {
 		return "PROXY 124.200.100.50:8080"
 	} else if (shExpMatch(host, "hunantv.com")) {
 		return "PROXY 124.200.100.50:8080"
+	} else if (shExpMatch(host, "account.bilibili.com")) {
+		return "PROXY ttigwh02:3128"
 	} else if (shExpMatch(host, "*.bilibili.com")) {
 		return "PROXY 124.200.100.50:8080"
 	} else if (shExpMatch(host, "tiantian.tv")) {
