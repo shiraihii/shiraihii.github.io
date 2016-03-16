@@ -1,5 +1,5 @@
 function FindProxyForURL(url, host) {
-	proxy = "HTTPS 192.168.3.2:8088";
+	proxy = "PROXY 192.168.3.2:8088; HTTPS 192.168.3.2:8088";
 	direct = "DIRECT";
 	if (isPlainHostName(host)) return direct;
 	else if (shExpMatch(host, "localhost.com")) {
