@@ -1,5 +1,5 @@
 function FindProxyForURL(url, host) {
-	proxy = "PROXY 120.52.72.58:80";
+	proxy = "PROXY server.mcsjtu.net:33128";
 	if (isPlainHostName(host)) return "DIRECT";
 	else if (shExpMatch(host, "localhost.com")) {
 		return proxy
