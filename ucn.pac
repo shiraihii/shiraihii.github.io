@@ -89,7 +89,7 @@ function FindProxyForURL(url, host) {
 		return proxy
 	} else if (shExpMatch(host, "hunantv.com")) {
 		return proxy
-	} else if (shExpMatch(host, "*.bilibili.com")) {
+	} else if (shExpMatch(host, "*.bilibili.*")) {
 		return proxy
 	} else if (shExpMatch(host, "tiantian.tv")) {
 		return proxy
