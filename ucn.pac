@@ -273,8 +273,6 @@ function FindProxyForURL(url, host) {
 		return proxy
 	} else if (shExpMatch(host, "*.acgvideo.com")) {
 		return proxy
-	} else if (shExpMatch(host, "*.dilidili.*")) {
-		return proxy
 	} else return "DIRECT"
 }
 
